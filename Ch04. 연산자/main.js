@@ -104,4 +104,16 @@ let o5 = false || 222;
 let o6 = null || undefined;
 console.log(o4);
 
-let 
+let n1 = !true;
+let n2 = !false;
+let n3 = !111;
+console.log(n3);
+
+/*
+삼항 연산자
+ - 조건식 ? 값1 : 값2
+ - 조건식이 true면 값1을 반환하고, false면 값2를 반환한다.
+ */
+let number = 11;
+let result2 = number % 2 == 0 ? "짝수입니다." : "홀수입니다."
+console.log(result2);
